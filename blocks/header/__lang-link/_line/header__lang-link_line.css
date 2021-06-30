@@ -1,0 +1,8 @@
+.header__lang-link_line{
+    text-decoration:none;
+}
+
+.header__lang-link_line:nth-of-type(1){
+    text-decoration:underline;
+    width: 30px;
+}

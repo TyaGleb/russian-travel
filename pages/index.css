@@ -1,3 +1,27 @@
 @import url(../vendor/normalize.css);
 
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__lang-link/_line/header__lang-link_line.css);
+
+
+
+@font-face {
+    font-family: "Inter"; 
+    src: url("../fonts/Inter.woff2") format("woff2"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+
+.pages{
+    position: relative;
+    width: 1280px;
+    height: 6875px;
+    
+    background: #2A2C2F;
+}
+
 

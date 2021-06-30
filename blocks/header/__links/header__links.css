@@ -1,0 +1,10 @@
+.header__links{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    gap: 18px;
+    align-items: flex-end;
+    margin: 0;
+    margin-bottom: 6px;
+    padding: 0;
+    list-style-type: none;
+}
