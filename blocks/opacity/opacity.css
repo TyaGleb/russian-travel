@@ -1,0 +1,4 @@
+.opacity:hover{
+    opacity: 70%;
+    transition: transform 1s ease-in;
+}

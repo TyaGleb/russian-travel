@@ -2,9 +2,11 @@
     display: flex;
     margin: auto;
     justify-content: space-between;
+    align-items: center;
     margin-top: 92px;
+    padding: 0;
     padding-bottom: 24px;
     width: 92.5%;
     height: 18px;
-    padding: 0;
+
 }

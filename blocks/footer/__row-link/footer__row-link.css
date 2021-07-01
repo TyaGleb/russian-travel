@@ -1,5 +1,7 @@
 .footer__row-link{
-    width: 106px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 106px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -8,5 +10,5 @@
     color: #FFFFFF;
     list-style-type: none;
     padding: 0;
-
+    margin-right: 18px;
 }
