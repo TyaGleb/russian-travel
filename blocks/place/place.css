@@ -1,0 +1,16 @@
+.place{
+    position: relative;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 584px;
+}
+
+.place:nth-of-type(3n+1){
+    height: 660px;
+}
+
+.place:not(nth-of-type){
+    margin-bottom: 80px;
+}
