@@ -1,4 +1,5 @@
 @import url(../vendor/normalize.css);
+@import url(../fonts/inter.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -6,21 +7,30 @@
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__lang-link/_line/header__lang-link_line.css);
 
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__title/lead__title.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list/_item/intro__list_item.css);
+
 
 
 @font-face {
-    font-family: "Inter"; 
-    src: url("../fonts/Inter.woff2") format("woff2"); 
+    font-family: "Inter-Regular"; 
+    src: url("../fonts/Inter-Regular.woff2") format("woff2"); 
     font-style: normal; 
     font-weight: normal; 
     } 
 
 
 .pages{
-    position: relative;
-    width: 1280px;
-    height: 6875px;
-    
+    max-width: 1280px;
     background: #2A2C2F;
 }
 
