@@ -1,15 +1,15 @@
-.place__website_size{
+.place__size{
     margin-top: 106px;
 }
 
 @media screen and (max-width: 768px) {
-    .place__website_size{
+    .place__size{
         margin-top: 0;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .place__website_size{
+    .place__size{
         margin-top: 32px;
     }
 }

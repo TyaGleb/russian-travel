@@ -1,4 +1,4 @@
-.place__website_url-heading{
+.place__url-heading{
     margin: 0;
     margin-bottom: 12px;
     font-family: Inter;
@@ -10,6 +10,6 @@
     color: #AAAAAA;
 }
 
-.place__website_url-heading:nth-of-type(3){
+.place__url-heading:nth-of-type(3){
     margin-top: 80px;
 }

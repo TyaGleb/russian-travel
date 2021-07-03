@@ -1,5 +1,4 @@
 .cover__overlay:hover {
-    background-image: url(../../../image/cover-trains.jpg);
     opacity: 0.8;
     transition-duration: 2s;
 }
