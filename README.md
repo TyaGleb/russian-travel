@@ -18,4 +18,4 @@
 
 **Ссылка на проект**
 
-* [Ссылка на макет в Figma]
+* [Ссылка на проект] https://tyagleb.github.io/russian-travel/

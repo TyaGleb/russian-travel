@@ -1,32 +1,23 @@
 .place__image{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 46.748%;
+    width: 460px;
+    margin: 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .place__image{
-        width: 47.4138%;
+        width: 440px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place__image{
-        position: absolute;
-        top: 96px;
-        left: 0;
-        width: 47.222%;
+        width: 340px;
     }
 }
 
-
-
 @media screen and (max-width: 320px) {
     .place__image{
-        position:unset;
-        width: 100%;
-        margin-top: 32px;
-        margin-bottom: 32px;
+        width: 320px;
     }
 }
