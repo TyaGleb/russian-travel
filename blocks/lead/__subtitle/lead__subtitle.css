@@ -10,21 +10,21 @@
     color: #FFFFFF;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1279px){
     .lead__subtitle{
         width: 68.9656%;
         margin: 3.4483% 0 0;
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 1023px){
     .lead__subtitle{
         width: 83.334%;
         margin: 4.1667% 0 0;
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 767px){
     .lead__subtitle{
         font-size: 16px;
         line-height: 125%;
