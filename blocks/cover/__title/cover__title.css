@@ -9,3 +9,27 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover__title{
+        width: 54.6875%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title{
+        width: 72.91667%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title{
+        margin-top: 33px;
+        max-width: 90%;
+        font-size: 33px;
+        line-height: 109%;
+    }
+
+}

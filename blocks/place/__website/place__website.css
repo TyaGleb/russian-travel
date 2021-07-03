@@ -6,3 +6,22 @@
 .place__website:nth-of-type(3){
     margin: 106px 0 48px 0;
 }
+
+@media screen and (max-width: 768px) {
+    .place__website{
+        width: 48.8889%;
+        height: 46px;
+        margin: 0;
+        margin-bottom: 48px;
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+    .place__website{
+        width: 90%;
+        margin: auto;
+        margin-top: 32px;
+    }
+}

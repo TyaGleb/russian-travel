@@ -4,6 +4,7 @@
     width: 76.875%;
     display: flex;
     flex-direction: column;
+
 }
 @media screen and (max-width: 1024px) {
     .places{
@@ -22,5 +23,10 @@
 }
 
 @media screen and (max-width: 320px) {
-
+    .places{
+        margin-top: 20%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
