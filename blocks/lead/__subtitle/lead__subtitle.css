@@ -1,7 +1,6 @@
 .lead__subtitle{
     width: 65.041%;
     margin: 3.2525% 0 0;
-
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -10,4 +9,27 @@
     text-align: center;
     color: #FFFFFF;
     
+}
+
+@media (max-width: 1024px){
+    .lead__subtitle{
+        width: 68.9656%;
+        margin: 3.4483% 0 0;
+    }
+}
+
+@media (max-width: 768px){
+    .lead__subtitle{
+        width: 83.334%;
+        margin: 4.1667% 0 0;
+    }
+}
+
+@media (max-width: 320px){
+    .lead__subtitle{
+        font-size: 16px;
+        line-height: 125%;
+        width: 90%;
+        margin: 5% 0 0;
+    }
 }

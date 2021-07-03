@@ -5,12 +5,47 @@
     flex-direction: column;
     align-items: flex-end;
     height: 584px;
+    margin-bottom: 80px;
 }
 
 .place:nth-of-type(3n+1){
     height: 660px;
 }
 
-.place:not(nth-of-type){
-    margin-bottom: 80px;
+.place.place:nth-of-type(5){
+    margin-bottom: 0;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .place{
+        height: 564px;
+    }
+    .place:nth-of-type(3n+1){
+        height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place{
+        height: 581px;
+        margin-bottom: 73px;
+    }
+    .place:nth-of-type(2){
+        height: 535px;
+    }
+    .place:nth-of-type(3){
+        height: 483px;
+    }
+    .place:nth-of-type(4){
+        height: 434px;
+    }
+    .place:nth-of-type(5){
+        height: 484px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
 }

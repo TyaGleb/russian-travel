@@ -3,5 +3,7 @@
 }
 
 .header__lang-link_line:nth-of-type(1){
-    text-decoration:underline;
+    border-bottom: 1.5px solid white;
+  display: inline-block;
+  line-height: 0.75;
 }

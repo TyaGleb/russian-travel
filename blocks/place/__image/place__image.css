@@ -4,3 +4,25 @@
     left: 0;
     width: 46.748%;
 }
+
+@media screen and (max-width: 1024px) {
+    .place__image{
+        width: 47.4138%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .place__image{
+        position: absolute;
+        top: 92px;
+        left: 0;
+        width: 47.222%;
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+}

@@ -5,6 +5,21 @@
     flex-direction: column;
     align-items: center;
     width: 76.875%;
-
 }
+
+@media (max-width: 1024px){
+    .lead{
+        width: 90.625%;
+        margin-top: 48px;
+    }
+}
+
+@media (max-width: 768px){
+    .lead{
+        width: 100%;
+        margin-top: 48px;
+    }
+}
+
+
 

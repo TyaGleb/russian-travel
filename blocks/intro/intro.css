@@ -5,3 +5,28 @@
     margin-top: 7.1875%;
     width: 53.90625%;
 }
+
+@media screen and (max-width: 1024px) {
+    .intro{
+        width: 67.38281%;
+        margin-top: 8.98475%;
+        margin-left: 4.6875%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro{
+        width: 93.75%;
+        margin: auto;
+        margin-top: 11.45834%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .intro{
+        width: 90%;
+        margin: auto;
+        margin-top: 20%;
+    }
+}

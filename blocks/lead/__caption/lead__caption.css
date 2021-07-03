@@ -11,3 +11,17 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+@media (max-width: 768px){
+    .lead__caption{
+        margin-top: 1.04167%;
+        margin-left: 3.125%;
+    }
+}
+
+@media (max-width: 320px){
+    .lead__caption{
+        margin-top: 2.5%;
+        margin-left: 5%;
+    }
+}

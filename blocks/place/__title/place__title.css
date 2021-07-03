@@ -11,3 +11,17 @@
     line-height: 106%;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 768px) {
+    .place__title{
+        font-size: 42px;
+        line-height: 110%;
+        width: 340px;
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+}
