@@ -44,13 +44,6 @@
 @import url(../blocks/footer/__row-link/footer__row-link.css);
 @import url(../blocks/footer/__row-links/footer__row-links.css);
 
-@font-face {
-    font-family: "Inter-Regular"; 
-    src: url("../fonts/Inter-Regular.woff2") format("woff2"); 
-    font-style: normal; 
-    font-weight: normal; 
-    } 
-
 .pages{
     max-width: 10023px;
     background: #2A2C2F;

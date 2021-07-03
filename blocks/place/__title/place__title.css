@@ -17,14 +17,12 @@
         font-size: 42px;
         line-height: 110%;
         width: 340px;
-
     }
 
 }
 
 
 @media screen and (max-width: 320px) {
-
     .place__title{
         font-size: 32px;
         line-height: 35px;
@@ -33,6 +31,4 @@
         position: unset;
         white-space: nowrap;
     }
-
-
 }

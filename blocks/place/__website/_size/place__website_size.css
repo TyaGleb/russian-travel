@@ -6,12 +6,10 @@
     .place__website_size{
         margin-top: 0;
     }
-
 }
 
 @media screen and (max-width: 320px) {
     .place__website_size{
         margin-top: 32px;
     }
-
 }

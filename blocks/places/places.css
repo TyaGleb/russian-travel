@@ -6,12 +6,12 @@
     flex-direction: column;
 
 }
+
 @media screen and (max-width: 1024px) {
     .places{
         margin-top: 8.9844%;
         width: 90.625%;
     }
-    
 }
 
 @media screen and (max-width: 768px) {
@@ -19,7 +19,6 @@
         margin-top: 11.45834%;
         width: 93.75%;
     }
-
 }
 
 @media screen and (max-width: 320px) {
