@@ -1,24 +1,22 @@
 .lead__image{
     width: 100%;
-    margin-top: 6.505%;
+    margin-top: 6.5041%;
 }
 
-@media (max-width: 1024px){
+@media screen and (min-width: 1024px) and (max-width: 1279px){
     .lead__image{
-        margin-top: 6.035%;
+        margin-top: 6.03449%;
     }
 }
 
-@media (max-width: 768px){
+@media  screen and (min-width: 768px) and (max-width: 1023px){
     .lead__image{
-        width: 100%;
-        margin-top: 7.2917%;
+        margin-top: 7.29167%;
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 767px){
     .lead__image{
-        width: 100%;
-        margin-top: 12.5%;
+        margin-top:12.5%;
     }
 }

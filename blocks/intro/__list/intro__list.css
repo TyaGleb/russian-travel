@@ -5,13 +5,13 @@
     list-style-type: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
     .intro__list{
     margin-top: 4.58334%;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .intro__list{
     margin-top: 11.80556%;
     }

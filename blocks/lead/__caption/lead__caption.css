@@ -11,14 +11,21 @@
     color: #FFFFFF;
 }
 
-@media (max-width: 768px){
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .lead__caption{
+        margin-top: 1.04167%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
     .lead__caption{
         margin-top: 1.04167%;
         margin-left: 3.125%;
     }
 }
 
-@media (max-width: 320px){
+@media screen and (max-width: 767px){
     .lead__caption{
         margin-top: 2.5%;
         margin-left: 5%;
