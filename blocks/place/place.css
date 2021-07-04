@@ -2,7 +2,6 @@
     max-width: 100%;
     display: grid;
     grid-template-columns: repeat(2, minmax(460px, max-content));
-    grid-template-rows: repeat(2, minmax(1fr, max-content));
     justify-content: center;
     gap: 48px 40px;
     margin: 0 auto 80px;
@@ -12,7 +11,6 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place{
         grid-template-columns: repeat(auto-fit, minmax(440px, max-content));
-        grid-template-rows: repeat(auto-fit, minmax(1fr, max-content));
         gap: 48px 32px;
     }
 }
@@ -20,20 +18,17 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place{
         grid-template-columns: repeat(auto-fit, minmax(340px, max-content));
-        grid-template-rows: repeat(auto-fit, minmax(1fr, max-content));
         gap: 48px 28px;
         margin: 0 auto 73px;
     }
     .place:nth-of-type(5){
         margin-bottom: 0;
     }
-
 }
 
 @media screen and (max-width: 767px) {
     .place{
         grid-template-columns:max-content;
-        grid-template-rows: repeat(auto-fit, minmax(1fr, 520px));
         gap: 32px;
         margin: 0 auto 50px;
     }
