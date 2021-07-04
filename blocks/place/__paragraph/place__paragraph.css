@@ -10,7 +10,7 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px){
     .place__paragraph{
         max-width: 456px;
         margin-bottom: 27px;
@@ -20,9 +20,10 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px){
     .place__paragraph{
         max-width: 352px;
+        margin: 0;
         margin-top: 25px;
         font-size: 16px;
         line-height: 163%;
@@ -32,12 +33,12 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .place__paragraph:nth-of-type(1){
         max-width: 288px;
         font-size: 16px;
         line-height: 163%;
-        margin: auto;
+        margin: 0 auto;
         margin-bottom: 25px;
         
     }

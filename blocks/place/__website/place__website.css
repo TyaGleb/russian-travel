@@ -6,14 +6,8 @@
     justify-content: flex-end;
 }
 
-@media screen and (max-width: 1024px) {
-}
 
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .place__website{
         width: 288px;
         margin: auto;
