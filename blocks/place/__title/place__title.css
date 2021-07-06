@@ -26,10 +26,11 @@
 
 @media screen and (max-width: 767px) {
     .place__title{
-        width: 288px;
+        max-width: 100vw;
         font-size: 32px;
         line-height: 35px;
         margin: auto;
+        margin-left: 16px;
     }
     br{
         display: none;
