@@ -1,18 +1,14 @@
 .cover{
     margin: auto;
     margin-top: 7.1875%;
-    width: 92.5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    max-width: 1184px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .cover{
         margin-top: 8.9844%;
         min-height: 640px;
-        width: 100%;
+        max-width: 100%;
     }
 }
 
@@ -20,7 +16,7 @@
     .cover{
         margin-top: 90px;
         min-height: 480px;
-        width: 100%;
+        max-width: 100%;
     }
 }
 
@@ -28,6 +24,6 @@
     .cover{
         margin-top: 41px;
         min-height: 200px;
-        width: 100%;
+        max-width: 100%;
     }
 }
