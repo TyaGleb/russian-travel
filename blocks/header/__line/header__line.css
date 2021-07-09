@@ -1,9 +1,0 @@
-.header__line{
-    text-decoration:none;
-}
-
-.header__line:nth-of-type(1){
-    border-bottom: 1.5px solid white;
-    display: inline-block;
-    line-height: 0.75;
-} 

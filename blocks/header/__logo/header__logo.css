@@ -1,21 +1,15 @@
 .header__logo{
-    width: 14.8649%;
+    width: 176px;
+    height: 52px;
+    background-image: url(../../../image/header-logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px){
-    .header__logo{
-        width: 18.9655%;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .header__logo{
-        width: 24.4445%;
-    }
-}
 
 @media screen and (max-width: 767px) {
     .header__logo{
-        width: 49.305%;
+        width: 142px;
+        height: 42px;
     }
 }
