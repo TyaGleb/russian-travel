@@ -1,5 +1,4 @@
 .place__paragraph{
-    max-width: 484px;
     margin: 0;
     margin-bottom: 26px;
     font-family: 'Inter', 'Arial', sans-serif;
@@ -34,20 +33,12 @@
 }
 
 @media screen and (max-width: 767px) {
-    .place__paragraph:nth-of-type(1){
+    .place__paragraph{
         font-size: 16px;
-        margin: 0 auto;
-        margin-bottom: 25px;
-        max-width: 288px;
-        
+        margin: 0 16px 25px 16px; 
     }
     .place__paragraph:nth-of-type(2){
-        max-width: 288px;
-        font-size: 16px;
-        line-height: 163%;
-        margin: 0 auto;
-
+        margin-bottom: 0;
     }
-
 
 }
